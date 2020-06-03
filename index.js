@@ -23,7 +23,7 @@ class ElementHandler {
                               "you've never heard my jokes before. I'll share one of my favorites with you: " +
                               "What do you call a fish with no eye? A fsh.")
     } else if (element.tagName === 'a') {
-      element.setAttribute('href', 'https://andrew-shieh.github.io/')
+      element.setAttribute('href', 'https://andrewshieh.github.io/')
       element.setInnerContent('Visit my personal site!')
     }
   }
